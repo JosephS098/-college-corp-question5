@@ -5,7 +5,7 @@ st.set_page_config(page_title="QR Code Quiz 5", page_icon="🧠")
 
 st.title("🧩 College Corps Mid-Year Workshop!")
 st.markdown("<h3 style='color:#4CAF50;'>Let's see if you can solve this!</h3>", unsafe_allow_html=True)
-question = "What communication style is being used in the following example?"
+question = "What communication style is being used in the image above?"
 image = Image.open('Aggressive.webp')
 st.image(image)
 choices = ["Assertive", "Aggressive", "Passive", "Passive-Aggressive"]
